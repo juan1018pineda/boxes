@@ -1,0 +1,10 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div {
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
