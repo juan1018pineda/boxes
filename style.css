@@ -1,10 +1,25 @@
 section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
 }
 
 div {
+    width: 100px;
+    height: 100px;
     line-height: 100px;
     text-align: center;
+}
+
+.first-column > div {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.second-column > div {
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.third-column > div {
+    background-color: red;
     border: 1px solid black;
 }
